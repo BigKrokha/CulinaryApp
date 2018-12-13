@@ -22,7 +22,7 @@ import com.example.lewan.myapplication.R;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-
+ 
 
 public class PageFragmentMenuSelectProductAndSearchRecipe extends ArrayAdapter<State> implements Filterable {
 

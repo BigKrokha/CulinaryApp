@@ -21,7 +21,7 @@ public class PageFragmentDescriptionRecipeProducts extends BaseAdapter {
         mContext = context;
         this.listProduct = listProduct;
         //this.gridViewString = gridViewString;
-    }
+    } 
 
     @Override
     public int getCount() {

@@ -24,7 +24,7 @@ public class PageFragmentMenuGetUserRecipe extends ArrayAdapter<State> {
 
     public PageFragmentMenuGetUserRecipe(Context context, int resource, List<State> states) {
         super(context, resource, states);
-        this.states = states;
+        this.states = states; 
         mContext = context;
         this.inflater = LayoutInflater.from(context);
     }

@@ -24,7 +24,7 @@ import com.example.lewan.myapplication.menu.PageFragmentMenuGetUserRecipe;
 import com.example.lewan.myapplication.menu.PageFragmentMenuSelectProductAndSearchRecipe;
 import com.example.lewan.myapplication.menu.PageFragmentsMenu;
 
-import java.util.ArrayList;
+import java.util.ArrayList; 
 
 public class PageFragmentsDescriptionRecipe extends Fragment {
     public static final String ARG_PAGE = "ARG_PAGE";

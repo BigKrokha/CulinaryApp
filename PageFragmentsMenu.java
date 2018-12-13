@@ -26,7 +26,7 @@ import com.example.lewan.myapplication.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PageFragmentsMenu extends Fragment {
+public class PageFragmentsMenu extends Fragment { 
     public static final String ARG_PAGE = "ARG_PAGE";
 
     private int mPage;

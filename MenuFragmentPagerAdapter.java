@@ -17,7 +17,7 @@ public class MenuFragmentPagerAdapter extends FragmentPagerAdapter {
     private Context context;
 
     MenuFragmentPagerAdapter(FragmentManager fm, Context context) {
-        super(fm);
+        super(fm); 
         this.context = context;
     }
 

@@ -13,7 +13,7 @@ public class MenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-
+ 
         // Получаем ViewPager и устанавливаем в него адаптер
         ViewPager viewPager = findViewById(R.id.viewPagerMenu);
         viewPager.setAdapter(new MenuFragmentPagerAdapter(getSupportFragmentManager(), MenuActivity.this));
