@@ -44,7 +44,7 @@ public class Authorization extends Thread {
                 System.out.println(inputLine);
                 sb.append(inputLine + "\n");
             }
-            in.close();
+            in.close(); 
 
             inputLine = sb.toString();
             JSONObject jObject = new JSONObject(inputLine);

@@ -17,7 +17,7 @@ public class DescriptionFragmentPagerAdapter extends FragmentPagerAdapter {
     private String tabTitles[] = new String[]{"Нужные продукты", "Описание"};
     private Context context;
 
-    DescriptionFragmentPagerAdapter(FragmentManager fm, Context context) {
+    DescriptionFragmentPagerAdapter(FragmentManager fm, Context context) { 
         super(fm);
         this.context = context;
     }
